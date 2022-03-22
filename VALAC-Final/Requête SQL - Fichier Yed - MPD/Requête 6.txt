@@ -1,0 +1,12 @@
+INSERT INTO `reservation`(
+    `user_idUser`,
+    `circuit_idCircuit`,
+    `reservation_user`,
+    `date_reservation`
+)
+VALUES(
+    '{id de l'utilisateur}',
+    '{id du circuit}',
+    '1',
+    '{date}'
+);

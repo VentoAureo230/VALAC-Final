@@ -1,0 +1,19 @@
+DELETE
+    e.*
+FROM
+    lieudevisite e
+WHERE
+    codeLieu IN(
+    SELECT
+        codelieu
+    FROM
+        (
+        SELECT
+            ldv.codeLieu
+        FROM
+            lieudevisite ldv
+        LEFT JOIN `etape` ON ldv.`codeLieu` = `etape`.`lieuDeVisite_codeLieu`
+        WHERE
+            `etape`.`idEtape` IS NULL
+    ) X
+);

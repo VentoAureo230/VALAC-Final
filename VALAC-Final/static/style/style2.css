@@ -1,0 +1,199 @@
+body{
+    background-size: cover;
+    font-family:'HelveticaNeue','Arial', sans-serif;
+    margin:0;
+}
+.bloc{
+background-color:black
+}
+.title-image{
+z-index:1;
+position: absolute;
+top:6vh;
+left:77vh;
+}
+
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.clear-fix{
+    clear:both;
+}
+.form-wrapper{
+   width:100%; 
+   height:100%; 
+   position: absolute; 
+   top:0; 
+   left:0;
+   transition:all .3s ease;
+   background-position: center;
+}
+
+.container{
+   position: absolute;
+   overflow:hidden;
+   width:420px;
+   height:320px;
+   height:auto;
+   background-color: rgb(255, 245, 255);
+   margin:auto;
+   border-radius: 5px;
+   padding:20px;
+   left:50%;
+   top:45vh;
+   margin-left:-180px;
+   margin-top:-200px;
+}
+.form-control {
+   color:#8a8a8a;
+   display: block;
+   width: 100%;
+   height: 4vh;
+   padding: 5px 5%;
+   border:1px solid #ccc;
+   -moz-border-radius: 27px;
+   -webkit-border-radius: 27px;
+   border-radius: 27px;
+   -moz-background-clip: padding;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   background-color: #fff;
+   font-family:'HelveticaNeue','Arial', sans-serif;
+   font-size: 105%;
+   letter-spacing: .8px;
+}
+div.form-item .form-style:focus{
+    outline: none;
+    border:1px solid #58bff6;
+    color:#58bff6; }
+.form-control-label {
+   left:26px;
+   top:2px;
+   transition:all .4s ease;
+   color:#bbb;
+}
+.btn{
+	float:right;
+	width: 112px;
+	height: 37px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #7ED957;
+	border:1px solid #55b1df;
+	border:none;
+	color: #fff;
+	font-weight: bold;
+}
+.btn:hover{
+    background-color: #fff; border:1px solid #55b1df; color:#7ED957; cursor:pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.boutonEdit{
+    padding: 0;
+    height: 30vh;
+    border: 0;
+    margin-left: 15%;
+    width: 70%;
+    background-position: 50%;
+    background-size: cover;
+    justify-items: center;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-size: 4vh;
+    vertical-align: middle;
+    background-image:url('https://lnt-1b770.kxcdn.com/wp-content/uploads/2019/02/zemmour-paris-750x536.jpg');
+}
+
+.barre-de-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+}
+.element-barre-de-navigation {
+  float: left;
+}
+
+.element-barre-de-navigation a{
+background-color:#7ED957;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.element-barre-de-navigation  a:hover {
+  color:#7ED957;
+  font-size 1000px
+  background-color:black;
+  color:rgb(250,250,250)
+ }
+ .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropbtn {
+    display:none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  position: fixed;
+}j
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.containercarousel{
+    height:100%
+}
+.bodycarousel{
+    height:95vh;
+    overflow:hidden;
+}
+.titre-circuit{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vh;
+}
+.description-circuit{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120vh;
+}
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120vh;
+}

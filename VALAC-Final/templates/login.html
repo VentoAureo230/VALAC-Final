@@ -1,0 +1,13 @@
+
+{% extends "base.php" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+<div class="column is-4 is-offset-4">
+    <h1 class="title">VALAC</h1>
+    <h3 class="title" style="color:black;">Login</h3>
+    <div class="box">
+        {{ wtf.quick_form(form) }}
+    </div>
+</div>
+{% endblock %}

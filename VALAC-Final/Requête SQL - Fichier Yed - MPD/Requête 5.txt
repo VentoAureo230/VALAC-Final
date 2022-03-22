@@ -1,0 +1,12 @@
+SELECT
+    nomCircuit,
+    idCircuit,
+    (
+        SUM(prixVisite) + prixInscription
+    ) AS prixTotal
+FROM
+    circuit
+LEFT JOIN etape ON circuit.idCircuit = etape.circuit_idCircuit
+LEFT JOIN lieudevisite ON lieudevisite.codeLieu = etape.lieuDeVisite_codeLieu
+GROUP BY
+    idCircuit

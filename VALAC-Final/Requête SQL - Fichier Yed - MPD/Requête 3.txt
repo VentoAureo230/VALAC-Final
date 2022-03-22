@@ -1,0 +1,3 @@
+SELECT `idCircuit`, `descriptif`, VD.nom AS villedepart, VA.nom AS villearrivee FROM circuit
+ join `ville` `VD` ON (circuit.villeDepart_idVille = VD.idVille) JOIN `ville` `VA` ON 
+(circuit.villeArrivee_idVille = VA.idVille) 
